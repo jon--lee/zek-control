@@ -16,7 +16,7 @@ izzy = PyControl("/dev/cu.usbmodem14111",115200, .04, [0,0,0,0,0],[0,0,0]); #sam
 #DIRECT CONTROL
 
 def directControl(): # use this to 
-    c = XboxController([80,155,155,155,90,100])
+    c = XboxController([40,155,120,155,90,100])
     #c = XboxController([100,155,155,155,100])
 
     while True:

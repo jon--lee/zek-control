@@ -65,7 +65,7 @@ class XboxController:
         turntable = -state['left_stick'][0]
         elev = -state['left_stick'][1]
         grip = state['d_pad'][0]
-        rot = state['trigger']
+        rot = -state['trigger']
         
         """rot = -state['right_stick'][0]
         ext = -state['right_stick'][1]  
