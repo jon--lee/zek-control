@@ -14,5 +14,4 @@ and change them if necessary in IzzyRun.py and TurnTable.py.
 
 Run IzzyRun.py with `$ python IzzyRun.py`
 
-
-
+Most of this code was written by Dave Gealy.
